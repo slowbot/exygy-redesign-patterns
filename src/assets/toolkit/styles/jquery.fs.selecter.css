@@ -1,0 +1,36 @@
+/*
+ * Selecter Plugin [Formstone Library]
+ * @author Ben Plum
+ * @version 2.1.2
+ *
+ * Copyright © 2013 Ben Plum <mr@benplum.com>
+ * Released under the MIT License <http://www.opensource.org/licenses/mit-license.php>
+ */
+ 
+	.selecter-element { *left: -999999px; position: absolute; opacity: 0; }
+	.selecter { display: block; position: relative; z-index: 1; }
+	.selecter .selecter-selected { background: #f8f6e8 url(../images/selecter-arrow.png) no-repeat right center; border: 2px solid #ece9d6; color: #5a5a5a; cursor: pointer; display: block; font-size: 20px; margin: 0; overflow: hidden; position: relative; text-overflow: clip; z-index: 49; line-height: 1.2; font-weight: 600; padding: 19px 24px; }
+
+	.selecter .selecter-options { border: 2px solid #ece9d6; background: #f8f6e8; display: none; left: 0; margin: 0; max-height: 260px; overflow: auto; overflow-x: hidden; padding: 0; position: absolute; top: 100%; right: 0; z-index: 50; }
+	.selecter .selecter-group { background: #F9F9F9; border-bottom: 1px solid #e3e3e3; color: #999; display: block; font-size: 11px; padding: 5px 10px 4px; text-transform: uppercase; }
+	.selecter .selecter-item { border-bottom: 1px solid #ece9d6; color: #5a5a5a; cursor: pointer; display: block; font-size: 18px; margin: 0; overflow: hidden; padding: 8px 24px; text-overflow: ellipsis; width: 100%; }
+	.selecter .selecter-item.selected { background: #f2efda; }
+
+	.no-touch .selecter .selecter-item:hover { background: #f2efda; }
+	
+	/* Open */
+	.selecter.open { z-index: 3; }
+	.selecter.open .selecter-selected { z-index: 51; }
+	
+	/* 'Cover' Positioning */
+	.selecter.cover.open .selecter-selected { z-index: 49; }
+	
+	/* 'Bottom' Positioning */
+	.selecter.bottom .selecter-options { bottom: 100%; top: auto; }
+	
+	/* 'Bottom' + 'Cover' Positioning */
+	.selecter.bottom.cover .selecter-options { bottom: 0; top: auto; }
+	
+	/* Multiple Select */
+	.selecter.multiple .selecter-options { display: block; position: static; width: 100%; }
+	

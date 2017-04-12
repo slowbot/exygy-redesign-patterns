@@ -1,0 +1,224 @@
+/* ==========================================================================
+	#Fonts
+========================================================================== */
+@import url("http://fonts.googleapis.com/css?family=Cabin:700");
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/gotham-book.eot');
+    src: url('../fonts/gotham-book.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-book.woff') format('woff'),
+         url('../fonts/gotham-book.ttf') format('truetype'),
+         url('../fonts/gotham-book.svg#gothambook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/GothamHTF-Light-webfont.eot');
+    src: url('../fonts/GothamHTF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GothamHTF-Light-webfont.woff2') format('woff2'),
+         url('../fonts/GothamHTF-Light-webfont.woff') format('woff'),
+         url('../fonts/GothamHTF-Light-webfont.ttf') format('truetype'),
+         url('../fonts/GothamHTF-Light-webfont.svg#gotham_htf_lightregular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/gotham-medium.eot');
+    src: url('../fonts/gotham-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-medium.woff') format('woff'),
+         url('../fonts/gotham-medium.ttf') format('truetype'),
+         url('../fonts/gotham-medium.svg#gothammedium') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/gotham-bold.eot');
+    src: url('../fonts/gotham-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-bold.woff') format('woff'),
+         url('../fonts/gotham-bold.ttf') format('truetype'),
+         url('../fonts/gotham-bold.svg#gothambold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/gotham-black.eot');
+    src: url('../fonts/gotham-black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-black.woff') format('woff'),
+         url('../fonts/gotham-black.ttf') format('truetype'),
+         url('../fonts/gotham-black.svg#gothamblack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/gotham-book-italic.eot');
+    src: url('../fonts/gotham-book-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-book-italic.woff') format('woff'),
+         url('../fonts/gotham-book-italic.ttf') format('truetype'),
+         url('../fonts/gotham-book-italic.svg#gothambook-italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/gotham-medium-italic.eot');
+    src: url('../fonts/gotham-medium-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-medium-italic.woff') format('woff'),
+         url('../fonts/gotham-medium-italic.ttf') format('truetype'),
+         url('../fonts/gotham-medium-italic.svg#gothammedium-italic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/gotham-bold-italic.eot');
+    src: url('../fonts/gotham-bold-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-bold-italic.woff') format('woff'),
+         url('../fonts/gotham-bold-italic.ttf') format('truetype'),
+         url('../fonts/gotham-bold-italic.svg#gothambold-italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/gotham-black-italic.eot');
+    src: url('../fonts/gotham-black-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-black-italic.woff') format('woff'),
+         url('../fonts/gotham-black-italic.ttf') format('truetype'),
+         url('../fonts/gotham-black-italic.svg#gothamblack-italic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FarnhamdisplaySwashalt';
+    src: url('../fonts/farnhamdisplay-regitalswashalt.eot');
+    src: url('../fonts/farnhamdisplay-regitalswashalt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/farnhamdisplay-regitalswashalt.woff') format('woff'),
+         url('../fonts/farnhamdisplay-regitalswashalt.ttf') format('truetype'),
+         url('../fonts/farnhamdisplay-regitalswashalt.svg#farnhamdisplay-regitalswashRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FarnhamdisplaySwash';
+    src: url('../fonts/farnhamdisplay-regitalswash.eot');
+    src: url('../fonts/farnhamdisplay-regitalswash.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/farnhamdisplay-regitalswash.woff') format('woff'),
+         url('../fonts/farnhamdisplay-regitalswash.ttf') format('truetype'),
+         url('../fonts/farnhamdisplay-regitalswash.svg#farnhamdisplay-regitalswashRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FarnhamdisplayLight';
+    src: url('../fonts/farnhamdisplay-lightital.eot');
+    src: url('../fonts/farnhamdisplay-lightital.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/farnhamdisplay-lightital.woff') format('woff'),
+         url('../fonts/farnhamdisplay-lightital.ttf') format('truetype'),
+         url('../fonts/farnhamdisplay-lightital.svg#farnhamdisplay-lightitalRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Farnhamdisplay';
+    src: url('../fonts/farnhamdisplay-regularital.eot');
+    src: url('../fonts/farnhamdisplay-regularital.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/farnhamdisplay-regularital.woff') format('woff'),
+         url('../fonts/farnhamdisplay-regularital.ttf') format('truetype'),
+         url('../fonts/farnhamdisplay-regularital.svg#farnhamdisplay-regularitalRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'avenir';
+    src: url('../fonts/avenirltstd-roman-webfont.eot');
+    src: url('../fonts/avenirltstd-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/avenirltstd-roman-webfont.woff') format('woff'),
+         url('../fonts/avenirltstd-roman-webfont.ttf') format('truetype'),
+         url('../fonts/avenirltstd-roman-webfont.svg#avenir_lt_std_55_romanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'avenir heavy';
+    src: url('../fonts/avenirltstd-black-webfont.eot');
+    src: url('../fonts/avenirltstd-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/avenirltstd-black-webfont.woff') format('woff'),
+         url('../fonts/avenirltstd-black-webfont.ttf') format('truetype'),
+         url('../fonts/avenirltstd-black-webfont.svg#avenir_lt_std_65_mediumbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../fonts/proximanova-bold-webfont.eot');
+    src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-bold-webfont.woff') format('woff'),
+         url('../fonts/proximanova-bold-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova-regular-webfont.eot');
+    src: url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-regular-webfont.woff') format('woff'),
+         url('../fonts/proximanova-regular-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('../fonts/proximanovasbold-webfont.eot');
+    src: url('../fonts/proximanovasbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanovasbold-webfont.woff') format('woff'),
+         url('../fonts/proximanovasbold-webfont.ttf') format('truetype'),
+         url('../fonts/proximanovasbold-webfont.svg#proxima_nova_scosf_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'farnhamdisplay-lightitalRg';
+    src: url('../fonts/farnhamdisplay-lightital-webfont.eot');
+    src: url('../fonts/farnhamdisplay-lightital-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/farnhamdisplay-lightital-webfont.svg#farnhamdisplay-lightitalRg') format('svg'),
+         url('../fonts/farnhamdisplay-lightital-webfont.woff') format('woff'),
+         url('../fonts/farnhamdisplay-lightital-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'farnhamdisplay-regitalswashRg';
+    src: url('../fonts/farnhamdisplay-regitalswash-webfont.eot');
+    src: url('../fonts/farnhamdisplay-regitalswash-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/farnhamdisplay-regitalswash-webfont.svg#farnhamdisplay-regitalswashRg') format('svg'),
+         url('../fonts/farnhamdisplay-regitalswash-webfont.woff') format('woff'),
+         url('../fonts/farnhamdisplay-regitalswash-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

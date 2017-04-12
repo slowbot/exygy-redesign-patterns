@@ -1,0 +1,27 @@
+// Compiles to ../style.css
+// sass --watch scss/main.scss:style.css
+@import 'variables';
+@import 'reset';
+@import 'fonts';
+@import 'typography';
+@import 'code-skin';
+
+@import 'blog-header';
+@import 'posts-list';
+@import 'single-post';
+@import 'pagination';
+@import 'responsiveness';
+
+body {
+	font-family: 'Gotham', sans-serif !important;
+}
+
+.blog {
+	background: $background;
+}
+
+.header {
+	z-index: 100;
+	font-family: 'Gotham';
+}
+

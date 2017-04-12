@@ -1,0 +1,730 @@
+/* ==========================================================================
+	#Media - Tablets in landscape & small desktops
+========================================================================== */
+@media (max-width: 1280px) {
+	
+	/* ==========================================================================
+		#Section - Intro
+	========================================================================== */
+	.section-intro .text { max-width: 970px; }
+	.section-intro p { font-size: 57px; }
+	.section-intro img { right: 0; }
+
+	/* ==========================================================================
+		#Section - Work
+	========================================================================== */
+	.slide-work-picture { max-width: 70%; margin: 0 auto; }
+
+	/* ==========================================================================
+		#Team 
+	========================================================================== */
+
+
+	/* ==========================================================================
+		#Our Mission
+	========================================================================== */
+	.our-mission-tabs li { margin: 0 10px; }
+
+	/* ==========================================================================
+		#Footer
+	========================================================================== */
+	.copyrights { left: auto; right: 0; }
+
+	/* ==========================================================================
+		#Blog
+	========================================================================== */
+	.article-content { margin-left: 4%; width: 66%; }
+	.article-sidebar { margin-right: 4%; width: 22%; }
+	
+	.posts-item { padding: 84px 4% 80px; }
+	.posts-item .video { width: 300px; height: 200px; }
+
+	.posts-item-featured { padding: 0; }
+	.posts-item-featured .posts-item-inner { padding: 40px 4% 23px; }
+
+	/* ==========================================================================
+		#Portfolio
+	========================================================================== */
+	.portfolio-item .text { font-size: 14px; line-height: 24px; }
+	.portfolio-conception { padding: 75px 5% 0; }
+
+	/* ==========================================================================
+		#Build
+	========================================================================== */
+	.categories-nav { width: 280px; }
+	.categories-nav ul { padding-left: 30px; }
+
+	.categories-content .picture { vertical-align: top; padding: 50px 0; }
+	.categories-content .text { padding-right: 4%; }
+
+	/* ==========================================================================
+		#Design
+	========================================================================== */
+	.ui-section-content { max-width: 990px; }
+	.ui-section .thumb { width: 200px; }
+
+	.ux-slide-inner { width: 940px; }
+	.ux-slide .picture { margin-right: -20px; }
+
+}
+
+/* ==========================================================================
+	#Media - Tablets in portrait
+========================================================================== */
+@media (max-width: 979px) {
+
+	/* ==========================================================================
+		#Nav
+	========================================================================== */
+	/*.nav a { font-size: 10px; }
+	.nav span { padding: 25px 0 0 5px; height: 31px; }*/
+
+	/* ==========================================================================
+		#Section - Intro
+	========================================================================== */
+	.section-intro .text { max-width: 748px; padding-top: 80px; height: 529px; }
+	.section-intro p { font-size: 34px; line-height: 1.4; text-align: center; }
+	.section-intro img { position: static; display: block; margin: 17px auto; }
+	.section-intro .btns { padding-top: 0; }
+		
+	/* ==========================================================================
+		#Arrows
+	========================================================================== */
+	.arrow-prev { left: 25px; }
+	.arrow-next { right: 25px; }
+
+	/* ==========================================================================
+		#Slideshow - Why
+	========================================================================== */
+	.slideshow-why { padding-bottom: 100px; }
+
+	.slide-why .picture, 
+	.slide-why .text { display: block; width: auto; }
+	.slide-why .text { padding-top: 30px; }
+
+	/* ==========================================================================
+		#Footer
+	========================================================================== */
+	.footer-top .footer-table { display: block; }
+	.footer-top .footer-cell { display: block; width: auto; }
+
+	.copyrights { width: 100%; }
+	.copyrights .cell:first-child { width: 50%; }
+	.form-subscribe { padding-bottom: 0; }
+
+	.footer-contact,
+	.footer-location { width: 50%; }
+
+	.footer-address { float: none; width: auto; display: block; height: auto; margin: 0 0 20px 0; }
+
+	/* ==========================================================================
+		#Slideshow - Team
+	========================================================================== */
+	/*.team-slideshow { padding: 0 }
+	.team-slide-content { width: 700px; }
+	.team-slide .picture { float: none; width: auto; padding-bottom: 30px; }
+	.team-slide .picture img { display: block; margin: 0 auto; }
+	.team-slide .text { float: none; width: 500px; margin: 0 auto; }
+	.team-slide h4,
+	.team-slide .meta { text-align: center; }*/
+
+	/* ==========================================================================
+		#Our Mission
+	========================================================================== */
+	.our-mission-head,
+	.our-team-head-mvp,
+	.our-mission-head-mvp,
+	.our-mission-content .text { width: 728px; }
+	
+	.our-mission-tabs li, 
+	.our-mission-tabs li a { width: 100px; }
+	.our-mission-tabs li { height: 200px; }
+	.our-mission-tabs a { padding-top: 50px; height: 150px; }
+	.our-mission-tabs img { width: 100px; height: 100px; }
+
+	.our-mission-tabs li.current, 
+	.our-mission-tabs li.current a, 
+	.our-mission-tabs li.current img { width: 200px; height: 200px; }
+	.our-mission-tabs li.current a { padding-top: 0; }
+
+	.our-mission-tabs li.current:before,
+	.our-mission-tabs li.current:after { bottom: -47px; }
+
+	.our-mission-content { margin-top: 45px; }
+
+	.our-mission p img,
+	.our-mission-mvp p img { max-width: 25%; }
+
+
+	/* ==========================================================================
+		#Article
+	========================================================================== */
+	.article { padding: 30px 0; }
+	.article-sidebar,
+	.article-content { float: none; margin: 0 3%; width: auto; }
+	.article-sidebar { padding-bottom: 30px; }
+	
+	.article-author .share span { display: inline; }
+	.article-author .share a { display: inline; margin-left: 10px; }
+
+	.article-head { max-width: none; }
+
+	/* ==========================================================================
+		#Posts
+	========================================================================== */
+	.posts-item-featured .more { display: none; } 
+	.posts-item .video { float: none; width: 100%; height: 0; padding-bottom: 56.25%; position: relative; margin-bottom: 18px; }
+	.posts-item .video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+	/* ==========================================================================
+		#Portfolio
+	========================================================================== */
+	.portfolio-item .text { font-size: 12px; line-height: 1.4; }
+	.portfolio-intro { width: 728px; }
+
+	.portfolio-solution { padding: 25px 0 0; }
+	.portfolio-solution .col { width: 44%; }
+	.portfolio-solution .col:first-child { margin-left: 4%; }
+	.portfolio-solution .col ~ .col { margin-right: 4%; }
+	.portfolio-solution .col-full { max-width: 92%; }
+
+	.portfolio-conception .article-body img { max-width: 50%; }
+	.portfolio-stuff .article-body,
+	.project-item { max-width: 92%; }
+
+	/* ==========================================================================
+		#Build
+	========================================================================== */
+	.build-section-head h2 span { font-size: 24px; }
+	.categories-content .picture,
+	.categories-content .text { width: auto; display: block; }
+	.categories-content .text { padding: 0 4% 50px; }
+
+	.platforms-content .text { font-size: 14px; line-height: 24px; }
+
+	/* ==========================================================================
+		#Design
+	========================================================================== */
+	.design-intro { max-width: 90%; }
+	.design-intro .article-body { font-size: 22px; }
+
+	.design-section .article { max-width: 90%; }
+	.design-section .article-body.alignleft, 
+	.design-section .article-body.alignright, 
+	.design-section .article-photo.alignleft, 
+	.design-section .article-photo.alignright { float: none; width: auto; }
+	.design-section p {font-size: 14px;}
+
+	.ui-section-content { max-width: 90%; }
+	.ui-section .text { float: none; width: auto; padding: 0 0 50px; }
+	.ui-section .frame { float: none; margin: 0 auto; }
+
+	.ux-thumbs li { margin: 0 14px; }
+	.ux-slide-inner { width: 728px; }
+	.ux-slide .picture { width: 268px; margin: 0; }
+	.ux-slide .picture img { max-width: 90%; }
+	.ux-slide .text { width: 460px; font-size: 16px; line-height: 28px; padding-top: 40px; }
+	.ux-slide .text h5 { font-size: 25px; padding-bottom: 20px; }
+
+	.section-intro .home_subtitle {margin-top: 15px;}
+	/*.article-sidebar { display:none; }*/
+}
+
+/* ==========================================================================
+	#Media - Mobile
+========================================================================== */
+@media (max-width: 767px) {	
+	
+	/* ==========================================================================
+		#Base
+	========================================================================== */
+	body { font-size: 10px; line-height: 1.6; }
+	
+	h1 { font-size: 40px; }
+	h2 { font-size: 45px; }
+	h3 { font-size: 18px; text-shadow: 2px 2px 0 #FFC44D; }
+	h4 { font-size: 20px; line-height: 1; }
+	h5 { font-size: 17px; }
+	h6 { font-size: 13px; }
+
+	input, 
+	select, 
+	textarea { font-size: 12px; }
+
+	/* ==========================================================================
+		#Buttons
+	========================================================================== */
+	.btn { height: 32px; font-size: 12px; line-height: 1.3;}
+	.btn-small {line-height: 2.66em;}
+	.btn-medium {line-height: 2.2;}
+	.btn > span { height: 38px; }
+	.btn > i { margin-right: 3px; }
+	.btns .btn { margin: 0 10px; }
+
+	[class^="icon-"] { height: 38px; }
+	[class^="icon-"] {
+		-webkit-background-size: 197px 66px;
+		background-size        : 197px 66px;
+	}
+
+	.icon-gear { width: 22px; }
+	.icon-wrench { width: 15px; background-position: -21px 0; }
+	.icon-make-pen { width: 23px; height: 27px; background-position: 0 -39px; }
+	.icon-phone { width: 16px; height: 27px; background-position: -23px -39px; }
+	.icon-mail { width: 29px; height: 27px; background-position: -39px -39px; }
+
+	/* ==========================================================================
+		#Header
+	========================================================================== */
+
+	.current-page { margin-left: 130px; line-height: 15px; font-size: 13px; color: #fffbef; display: block; margin-top: 15px; margin: 0; }
+
+	/* ==========================================================================
+		#Section - Intro
+	========================================================================== */
+	.section-intro:before { display: none; }
+	.section-intro .section-inner { height: 310px; }
+	.section-intro .section-inner {
+		-webkit-background-size: auto 100%;
+		background-size        : auto 100%;
+	}
+	
+	.section-intro .text { padding-top: 62px; height: 248px; }
+	.section-intro p { font-size: 23px; line-height: 31px; }
+	
+	.section-intro img { width: 141px; height: 79px; margin-top: 13px; }
+	.section-intro .btns { display: none; }
+
+	/* ==========================================================================
+		#Arrows
+	========================================================================== */
+	.paging { top: 16px; }
+	
+	.arrow-prev,
+	.arrow-next { width: 30px; height: 30px; top: 220px; } 
+
+	.arrow-prev a,
+	.arrow-next a { width: 30px; height: 30px; }
+
+	.arrow-prev,
+	.arrow-next {
+		-webkit-background-size: 197px 66px;
+		background-size        : 197px 66px;
+	}
+
+	.arrow-prev { background-position: -132px 0; left: 15px; }
+	.arrow-next { background-position: -132px -31px; right: 15px; }
+
+	.arrow-orange-prev { width: 32px; height: 33px; background-position: -162px -33px; left: 5%; }
+	.arrow-orange-next { width: 32px; height: 33px; background-position: -162px 0; right: 5%; }
+
+	/* ==========================================================================
+		#Section - Work
+	========================================================================== */
+	.section-work h2 { height: 74px; line-height: 74px; font-size: 45px;}
+	.slideshow-work { padding: 43px 0 25px; }
+	.slide-work h3 {font-size: 26px;}
+	.slide-work-picture { max-width: 90%; }
+	.slide-work-text { max-width: 80%; padding: 20px 0; font-size: 13px; line-height: 18px; }
+	.slide-work-text h3 { font-size: 18px; padding-bottom: 17px; }
+
+	.section-work .boxes .text h3 {
+		font-size: 20px;
+	}
+	.section-work .boxes .text h4 {
+		font-size: 16px;
+	}
+	.section-work .boxes .text {
+		font-size: 15px;
+	}
+
+	/* ==========================================================================
+		#Section - Why
+	========================================================================== */
+	.section-why h2 { font-size: 45px; height: 74px; line-height: 74px; }
+	.slideshow-why { padding: 43px 0 25px; }
+
+	.slide-why .text { font-size: 13px; line-height: 18px; padding-top: 24px; }
+	.slide-why .text h3 { font-size: 18px; padding-bottom: 15px; text-shadow: 2px 2px 0 #52CCCA; }
+
+	.slideshow-why .arrow-prev,
+	.slideshow-why .arrow-next { display: block; opacity: .5; }
+
+	/* ==========================================================================
+		#Form Subscribe
+	========================================================================== */
+
+
+	/* ==========================================================================
+		#Footer
+	========================================================================== */
+
+	/* ==========================================================================
+		#Main
+	========================================================================== */
+	.main-home { padding-top: 0; }
+	
+	.main-head h1 { }
+	.sub-head h2 { font-size: 40px; line-height: 70px; text-shadow: 2px 2px 0 #fc7f26; }
+
+	.main-banner { height: 80px; }
+
+	.main-slogan { padding: 15px 5%; }
+
+	.main-subheader {font-size: 20px;}
+	
+	.main-bottom { padding: 24px 0; }
+	.main-bottom h2 { font-size: 28px; padding-bottom: 20px; }
+
+	/* ==========================================================================
+		#Team Slideshow
+	========================================================================== */
+
+	/* ==========================================================================
+		#Our Mission
+	========================================================================== */
+	.our-mission { padding-top: 30px; }
+	.our-team-mvp { padding-top: 30px; }
+	.our-mission-mvp { padding-top: 30px; }
+
+	.our-mission-head, 
+	.our-team-head-mvp, 
+	.our-mission-head-mvp, 
+	.our-mission-content .text { max-width: 90%; }
+
+	.our-mission-head,
+	.our-team-head-mvp,
+	.our-mission-head-mvp { font-size: 11px; line-height: 1.6; margin-bottom: 20px; }
+
+	.our-mission-head h3,
+	.our-team-head-mvp h3,
+	.our-mission-head-mvp h3 { padding-bottom: 15px; }
+
+	.our-mission-tabs li, 
+	.our-mission-tabs li a { width: 40px; }
+	.our-mission-tabs li { height: 80px; margin: 0 5px; }
+	.our-mission-tabs a { padding-top: 20px; height: 60px; }
+	.our-mission-tabs img { width: 40px; height: 40px; }
+
+	.our-mission-tabs li.current, 
+	.our-mission-tabs li.current a, 
+	.our-mission-tabs li.current img { width: 80px; height: 80px; }
+	.our-mission-tabs li.current a { padding-top: 0; }
+
+	.our-mission-tabs li.current:before,
+	.our-mission-tabs li.current:after { bottom: -47px; }
+
+	.our-mission-content .text { padding: 15px 0; }
+	.our-mission-content h3 { padding-bottom: 9px; }
+
+
+	.our-mission p img,
+	.our-mission-mvp p img { max-width: 15%; }
+
+	/* ==========================================================================
+		#Posts
+	========================================================================== */
+	.avatar { padding: 2px; }
+	.avatar, 
+	.avatar img { width: 52px; height: 52px; }
+
+	.share { padding-top: 12px; }
+	.share a { margin-left: 10px; }
+	
+	.posts-item { padding: 20px 10px; }
+	.posts-item .text { margin-left: 70px; }
+	.posts-item p { padding-bottom: 7px; }
+
+	.posts-item .text-head, 
+	.posts-item .text-body { padding-bottom: 9px; }
+
+
+	.posts-item h4 { font-size: 20px; line-height: 24px;}
+	.posts-item h6 { padding: 1px 0 10px; }
+	.posts-item .video { margin-bottom: 9px; }
+
+	.posts-item-featured { height: 230px; padding: 0; }
+	.posts-item-featured .posts-item-inner { padding: 20px 10px 10px; }
+
+	.more-posts { padding: 20px 0; }
+
+	/* ==========================================================================
+		#Article
+	========================================================================== */
+	.article-sidebar { float: left; padding: 0; margin: 30px 3% 0; }
+
+	.article-author .meta,
+	.article-author .share,
+	.article-author .text { display: none; }
+	.article-author .avatar { margin: 0; }
+
+	.article-head,
+	.article-body p, 
+	.article-body ul, 
+	.article-body ol, 
+	.article-body blockquote { padding-bottom: 15px; }
+    .article-body div {width: auto! important;}
+	.article-body img { float: none; display: block; margin: 5px 0; }
+
+	.article-body img.alignright,
+	.article-body img.alignleft { margin: 5px 0; }
+
+	.article-body h1,
+	.article-body h2,
+	.article-body h3,
+	.article-body h4,
+	.article-body h5,
+	.article-body h6 { padding-bottom: 7px; }
+	
+	.ngg-imagebrowser { margin-bottom: 15px; }
+	.ngg-imagebrowser img { margin: 0; }
+	.ngg-imagebrowser-desc { padding: 10px 2%; display: none; }
+	.ngg-imagebrowser-desc p { padding-bottom: 0; }
+
+	.ngg-imagebrowser .ngg-browser-prev, 
+	.ngg-imagebrowser .ngg-browser-next { width: 32px; height: 32px; margin-top: -16px; }
+
+	.ngg-imagebrowser .ngg-browser-prev { background-position: -70px 0; left: 11px; }
+	.ngg-imagebrowser .ngg-browser-next { background-position: -38px 0; right: 11px; }
+
+	.ngg-imagebrowser .ngg-browser-prev, 
+	.ngg-imagebrowser .ngg-browser-next {
+		-webkit-background-size: 197px 66px;
+		background-size        : 197px 66px;
+	}
+
+	/* ==========================================================================
+		#Portfolio
+	========================================================================== */
+	.portfolio { padding: 15px 0 10px; }
+	.portfolio-item { padding-bottom: 25px; }
+	.portfolio-item .head { padding-bottom: 15px; }
+	.portfolio-item .head h3 { font-size: 25px; padding-bottom: 10px; }
+	.portfolio-item .head p { font-size: 13px; }
+	.portfolio-item ~ .portfolio-item .head h3 span { padding: 15px 10px 0; }
+
+	.portfolio-item .cell:first-child { width: 30%; }
+	.portfolio-item .cell:first-child + .cell { width: 60%; }
+
+	.portfolio-item .text { font-size: 10px; line-height: 1.4; }
+	.portfolio-item .cell-more {
+		-webkit-background-size: 60% auto;
+		background-size: 60% auto;
+	}
+
+	.portfolio-intro { font-size: 11px; line-height: 18px; width: 90%; margin: 25px auto 20px; text-align: center; }
+	.portfolio-intro h3 { padding-bottom: 10px; }
+	
+	.portfolio-solution { padding: 20px 5% 0; }
+	.portfolio-solution .col,
+	.portfolio-solution .col:first-child,
+	.portfolio-solution .col ~ .col { float: none; margin: 0; width: auto; }
+	.portfolio-solution .col { padding-bottom: 10px; }
+	.portfolio-solution .col-full { max-width: none; padding-bottom: 10px; width: auto; }
+	.portfolio-solution h5 { padding-bottom: 4px; }
+	.portfolio-solution p { padding-bottom: 10px; }
+
+	.portfolio-conception { padding-top: 20px; }
+	.portfolio-conception h4 { text-align: center; }
+	.portfolio-conception .article-body img { max-width: 100%; float: none; display: block; }
+	.portfolio-stuff { margin-top: 15px; }
+
+	.testimonial { margin: 0 auto; padding: 15px 0 30px 18px; font-size: 14px; line-height: 20px; }
+	.testimonial {
+		-webkit-background-size: 78px 58px;
+		background-size: 78px 58px;
+	}
+
+	.testimonial strong { font-size: 10px; padding-bottom: 0; }
+
+	/* ==========================================================================
+		#Build
+	========================================================================== */
+	.build-section-head { height: 70px; }
+	.build-section-head h2 { font-size: 40px; line-height: 70px; }
+	.build-section-head h2 span { display: none; }
+
+	.build-technology .build-section-body { display: block; }
+
+	.categories-nav {width: 92%;display: block; height: 45px; position: relative;padding: 0 4%;}
+	.categories-nav .first { width: 100%; overflow-x: auto; overflow-y: hidden;}
+	.categories-nav ul {padding: 0; white-space: nowrap;  position: relative;}
+	.categories-nav .before {z-index: 100; position: absolute;background: url(../images/left-scroll.png) no-repeat 0px 12px;top: 0;left: 0px;height: 45px;width: 25px;background-color: #f2efda;}
+	.categories-nav .after {z-index: 100; position: absolute;background: url(../images/right-scroll.png) no-repeat 0px 12px;top: 0;right: 0px;height: 45px;width: 25px;background-color: #f2efda;}
+	.categories-nav li { display: inline-block; height: 45px; overflow: hidden; }
+	.categories-nav a { font-size: 12px; line-height: 46px; margin: 0 10px; padding:0; }
+	.categories-nav li.current:after { border-width: 0 10px 10px; border-color: #fff transparent; right: auto; top: auto; margin: 0 0 0 -10px; bottom: 0; left: 50%; }
+
+	.categories-content { display: block; }
+	.categories-content .picture { display: none; }
+	.categories-content .text { font-size: 13px; line-height: 18px; padding: 20px 4% 5px; }
+	.categories-content .text h3 { font-size: 25px; padding-bottom: 15px; }
+	.categories-content .text p { padding-bottom: 10px; }
+	.categories-content .btns { padding: 10px 0 15px; }
+
+	.platforms-nav { float: none; width: auto; height: 75px; }
+	.platforms-nav ul { padding: 0; text-align: center; }
+	.platforms-nav li { display: inline-block; vertical-align: top; height: 61px; margin: 0 10px; padding-top: 14px; }
+	.platforms-nav li ~ li { margin-top: 0; }
+	.platforms-nav a {
+		-webkit-background-size: 160px 91px;
+		background-size: 160px 91px;
+	}
+
+	.platforms-nav li.current:after { border-width: 0 10px 10px; border-color: #F26430 transparent; right: auto; top: auto; bottom: 0; left: 50%; margin: 0 0 0 -10px; }
+
+	.platforms-nav .smartphones a { width: 22px; height: 45px; background-position: 0 0; }
+	.platforms-nav .smartphones.current a { background-position: 0 -45px; }
+
+	.platforms-nav .tablets a { width: 59px; height: 45px; background-position: -22px 0; }
+	.platforms-nav .tablets.current a { background-position: -22px -46px; }
+
+	.platforms-nav .desktop a { width: 79px; height: 45px; background-position: -81px 0; }
+	.platforms-nav .desktop.current a { background-position: -81px -46px; }
+	
+	.platforms-content .tab { height: auto; }
+	.platforms-content .intro { float: none; width: auto; display: block; height: auto; }
+	.platforms-content .intro-inner { display: block; }
+	.platforms-content .text { display: block; font-size: 13px; line-height: 18px; padding: 20px 4% 5px; }
+	.platforms-content .text h5 { padding-bottom: 10px; }
+	.platforms-content .text p { padding-bottom: 10px; }
+
+	.platforms-content .slideshow, 
+	.platforms-content .slides, 
+	.platforms-content .slide { height: 250px; }
+
+	.platforms-content .caption { font-size: 12px; line-height: 1.2; padding: 10px 4%; }
+
+	.platforms-content .prev, 
+	.platforms-content .next { width: 30px; height: 30px; margin-top: -15px; }
+
+	.platforms-content .prev, 
+	.platforms-content .next {
+		-webkit-background-size: 197px 66px;
+		background-size        : 197px 66px;
+	}
+
+	.platforms-content .prev { background-position: -102px 0; }
+	.platforms-content .next { background-position: -102px -31px; }
+
+	.platforms-content .prev a, 
+	.platforms-content .next a { height: 30px; }
+
+	/* ==========================================================================
+		#Design
+	========================================================================== */
+	.design-nav { height: 46px; border-bottom: 0; }
+	.design-nav li { margin: 0 10px; }
+	.design-nav a { font-size: 12px; line-height: 46px; }
+	.design-nav span:first-child { display: none; }
+	.design-nav span ~ span { display: inline; }
+	
+	.design-nav li.current_page_item span:first-child { display: inline; }
+	.design-nav li.current_page_item span ~ span { display: none; }
+
+	.design-nav li.current_page_item:before { display: none; }
+	.design-nav li.current_page_item:after { border-width: 0 10px 10px; bottom: 0; }
+
+	.design-intro h3 { font-size: 25px; }
+	.design-intro .article-body { font-size: 11px; line-height: 18px; }
+	.article-body .col-half { float: none; width: auto; }
+	.article-body .col-half ul { padding-bottom: 0; }
+
+	.design-intro .list-blue-bullet-cnt ul li { padding-left: 10px; }
+	.design-intro .list-blue-bullet-cnt ul li:before { top: 6px; width: 5px; height: 5px; }
+	
+	.ui-section-content { padding: 30px 0; }
+	.ui-section .frame { display: none; }
+	.ui-section .thumb { width: 100px; }
+	.ui-section .thumb img { max-width: 80%; }
+	.ui-section .text { padding-bottom: 0; }
+	.ui-section h4 { font-size: 15px; padding-bottom: 10px; }
+	.ui-section .item ~ .item { padding-top: 20px; }
+
+	.ux-thumbs { display: none; }
+
+	.ux-slideshow { padding: 0 0 20px; }
+	.ux-slide-inner { width: 90%; }
+
+	.ux-slide .text { float: none; width: 70%; margin: 0 auto; font-size: 11px; line-height: 17px; text-align: center; }
+	.ux-slide .text h4 { padding-bottom: 0; }
+	.ux-slide .text h5 { font-size: 13px; line-height: 18px; padding-bottom: 10px; }
+
+	.ux-slide .picture { width: 190px; margin: 0 auto; float: none; }
+
+	.ux-slideshow .arrow-prev, 
+	.ux-slideshow .arrow-next { display: block; top: 294px; margin: 0; }
+
+	.paging-ux { display: block; padding: 10px 0; }
+
+	/* ==========================================================================
+		#Careers
+	========================================================================== */
+
+	.careers-subsection h4 {font-size: 18px;}
+	.careers-subsection .image { float: none; overflow: hidden; max-height: 200px; width: 100%; padding: 0; padding-bottom: 12px; }
+	.careers-subsection .image img { width: 100%;}
+	.careers-subsection .content { float: none; width: 100%; padding: 0; }
+
+
+	/* ==========================================================================
+		#Forms
+	========================================================================== */
+	.gform_heading { padding: 30px 0 20px; font-size: 12px; line-height: 17px; }
+	.gform_title { font-size: 22px; line-height: 1.2; padding-bottom: 10px; } 
+
+	.field,
+	input.medium,
+	textarea.medium { width: 100%; padding: 10px; }
+	.field,
+	input.medium,
+	textarea.medium {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing   : border-box;
+		box-sizing        : border-box;
+	}
+
+	.selecter .selecter-selected { padding: 10px; font-size: 12px; }
+	.selecter .selecter-selected {
+		-webkit-background-size: 28px 24px;
+		background-size        : 28px 24px;
+	}
+
+	.selecter .selecter-item { font-size: 10px; padding: 5px 10px; }
+
+	/* ==========================================================================
+		#Popups
+	========================================================================== */
+	.popup { border: 0; border-radius: 0; }
+	.popup-planner { margin: 0; width: auto; padding: 0 5%; }
+	
+	.popup-planner .gfield { padding-bottom: 10px; }
+	.popup-planner .gform_footer { margin: 0; padding-bottom: 20px; }
+	.popup-planner .button { font-size: 12px; padding: 11px 0 10px; width: 150px; }
+	.popup-planner .gform_ajax_spinner {width: 16px; height: 16px; bottom: 59px; margin-left: -8px;}
+
+	/* ==========================================================================
+		#No Touch Styles
+	========================================================================== */
+	.no-touch .arrow-prev:hover,
+	.no-touch .arrow-next:hover { opacity: 1; filter: alpha(opacity=100); }
+
+	.no-touch .platforms-nav .smartphones a:hover { background-position: 0 -45px; }
+	.no-touch .platforms-nav .tablet a:hover { background-position: -22px -46px; }
+	.no-touch .platforms-nav .desktop a:hover { background-position: -81px -46px; }
+
+	.section-intro .home_subtitle { display:none; }
+
+	.footer-address .bcorp-logo {
+		float: right;
+		width: 52px;
+		margin: 0 -33px 0 0;
+	}
+
+	.footer-address p {
+		font-size: 11px;
+		width: 90px;
+		float: left;
+		margin-top: 12px;
+	}
+}

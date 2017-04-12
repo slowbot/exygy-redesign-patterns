@@ -1,0 +1,50 @@
+/* ==========================================================================
+  #Header
+========================================================================== */
+.header { 
+  position: fixed; top: auto; left: 0; z-index: 1; width: 100%; 
+  background: url(images/bg-bar-top.jpg) no-repeat center 0; 
+  box-shadow: 0 2px 3px rgba(0,0,0, .25); -webkit-background-size: 100% 2px;  
+  background-size: 100% 2px; }
+
+.header:after { 
+  position: absolute; top: 0; left: 0; bottom: 0; width: 100%; 
+  content: ''; 
+  background: url(images/header-bg.png) repeat-y center 0; }
+
+.header:before { 
+  position: absolute; top: 0; left: 0; bottom: 0; width: 100%; content: ''; 
+  background: url(images/header-bg-outer.png) repeat-y center 0, url(images/header.png) repeat 0 0; }
+
+.header .container { 
+  position: relative; z-index: 9; box-sizing: border-box; padding-left: 190px; }
+
+.logo { 
+  position: absolute; top: 50%; left: 0; 
+  width: 170px; 
+  text-align: right; 
+  padding-right: 20px;
+  padding-left: 20px;
+  transform: translateY(-50%); -webkit-transform: translateY(-50%); 
+
+  @media screen and (min-width: 1200px) {
+    padding-left: 0;
+  }
+}
+
+.logo a { 
+  display: block; 
+  width: 79px; 
+  height: 22px; 
+  margin: 0 0 0 auto; 
+  background: url(images/logo.png) no-repeat 0 0; 
+  -webkit-background-size: 100% 100%; background-size: 100% 100%; 
+  font-size: 0; line-height: 0; text-indent: -4000px; 
+  -webkit-transition: none!important;
+  -o-transition: none!important;
+  transition: none!important;
+
+  @media screen and (min-width: 768px) {
+
+  }  
+}

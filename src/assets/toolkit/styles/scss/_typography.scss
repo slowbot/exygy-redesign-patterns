@@ -1,0 +1,55 @@
+.blog {
+	font-family: 'BlogGotham', sans-serif;
+
+	h1 {
+		font-size: 36px;
+		color: $gray;
+
+		&.serif {
+			text-transform: none;
+			line-height: 46px;
+		}
+	}
+
+	h2 {
+		font-family: 'Farnham', serif;
+		font-size: 28px;
+		color: $gray;
+	}
+
+	h4 {
+		font-family: 'Farnham', serif;
+		font-size: 18px;
+		color: $gray;
+	}
+
+	h5 {
+		font-size: 16px;
+		color: $gray;
+	}
+
+	h6 {
+		font-size: 12px;
+		color: $lightGray;
+	}
+
+	p {
+		font-size: 14px;
+		color: $gray;
+		line-height: 24.85px;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.bold { font-weight: 700; }
+	.medium { font-weight: 400; }
+	.book { font-weight: 300; }
+	.light { font-weight: 200; }
+	.xlight { font-weight: 100; }
+	.italic { font-style: italic; }
+	.uppercase { text-transform: uppercase; }
+	.serif { font-family: 'Farnham'; }
+	.sans-serif { font-family: 'BlogGotham'; }
+}

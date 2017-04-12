@@ -1,9 +1,0 @@
-//
-// Mixins
-//
-
-// Hide from screen-readers
-@mixin sr-only() {
-  position: absolute;
-  left: -999em;
-}

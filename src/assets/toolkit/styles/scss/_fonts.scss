@@ -1,0 +1,142 @@
+/* ICOMOON ICONS FONT */
+@font-face {
+  font-family: 'icomoon';
+  src:  url($fontsDir + 'icomoon.eot?7xxe1y');
+  src:  url($fontsDir + 'icomoon.eot?7xxe1y#iefix') format('embedded-opentype'),
+    url($fontsDir + 'icomoon.ttf?7xxe1y') format('truetype'),
+    url($fontsDir + 'icomoon.woff?7xxe1y') format('woff'),
+    url($fontsDir + 'icomoon.svg?7xxe1y#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-facebook-f:before {
+  content: "\f09a";
+}
+
+/* FARNHAM FONT */
+@font-face {
+  font-family: 'Farnham';
+  src: url($fontsDir + 'Farnham/FarnhamDisplay-BlackItal.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Farnham';
+  src: url($fontsDir + 'Farnham/FarnhamDisplay-Black.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Farnham';
+  src: url($fontsDir + 'Farnham/FarnhamDisplay-RegItalSwashAlt.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Farnham';
+  src: url($fontsDir + 'Farnham/FarnhamDisplay-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Farnham';
+  src: url($fontsDir + 'Farnham/FarnhamDisplay-Light.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Farnham';
+  src: url($fontsDir + 'Farnham/FarnhamDisplay-LightItal.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* GOTHAM FONT */
+
+// Extra Light
+@font-face {
+  font-family: 'BlogGotham';
+  src: url($fontsDir + 'Gotham/GothamHTF-XLight.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BlogGotham';
+  src: url($fontsDir + 'Gotham/GothamHTF-XLightItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+// Light
+@font-face {
+  font-family: 'BlogGotham';
+  src: url($fontsDir + 'Gotham/GothamHTF-Light.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BlogGotham';
+  src: url($fontsDir + 'Gotham/GothamHTF-LightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+// Book
+@font-face {
+  font-family: 'BlogGotham';
+  src: url($fontsDir + 'Gotham/GothamHTF-Book.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BlogGotham';
+  src: url($fontsDir + 'Gotham/GothamHTF-BookItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+// Medium
+@font-face {
+  font-family: 'BlogGotham';
+  src: url($fontsDir + 'Gotham/GothamHTF-Medium.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Bold
+@font-face {
+  font-family: 'BlogGotham';
+  src: url($fontsDir + 'Gotham/GothamHTF-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
