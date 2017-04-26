@@ -43,24 +43,23 @@ body {
   box-shadow: none;
   text-shadow: none;
   border-radius: 0;
+
+  &:hover {
+    background-color: #fff;
+    color: #333;
+  }
 }
 
+// updating paths for images
 .style-helper {
   .header {
-    background: none;
+    background: url(../images/bg-bar-top.jpg) no-repeat center 0; 
+    -webkit-background-size: 100% 2px;  
+    background-size: 100% 2px;
 
     &:before {
       background: url(../images/header-bg-outer.png) repeat-y center 0, url(../images/header.png) repeat 0 0;
     }
-
-    .container {
-      max-width: 960px;
-      padding-left: 80px;
-    }
-  }
-
-  .logo {
-    width: auto;
   }
 
   .logo a {
@@ -68,14 +67,16 @@ body {
     -webkit-background-size: 100% 100%; 
     background-size: 100% 100%; 
   }
+}
 
-  .nav {
-    li:nth-child(3) {
-      margin-right: 240px;
-    }
+// changed spacing between navigation elements
+.nav {
+  li:nth-child(3) {
+    margin-right: 240px;
   }
 }
 
+// remove background elements from header
 .header {
   &.header-transparent {
     background: none;
