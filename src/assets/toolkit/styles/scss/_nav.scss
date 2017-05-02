@@ -1,0 +1,46 @@
+/* ==========================================================================
+  #Nav
+========================================================================== */
+
+.nav { padding: 20px 0; }
+.nav ul { width: 100%; list-style: none outside none; padding-left: 20px; }
+.nav li { display: inline-block; vertical-align: middle; padding: 0 20px; }
+.nav li:nth-child(3) { margin-right: 240px; }
+.nav a { display: block; font-size: 12px; line-height: 16px; color: #b3b3b3; font-weight: 600; text-transform: uppercase; letter-spacing: .25px; }
+.nav a:hover { color: #f26430; }
+
+.nav i,
+.nav span { display: inline-block; vertical-align: middle; }
+.nav i { height: 23px; margin-right: 5px; background: url(images/new-nav-icons.png) no-repeat; vertical-align: middle; display: none; }
+.nav .nav-wwd i,
+.nav .nav-about i ,
+.nav .nav-portfolio i { display: inline-block; }
+.nav .nav-portfolio i { width: 23px; background-position: -38px 0; }
+.nav .nav-wwd i { width: 28px; height: 26px;background-position: -72px 0; }
+.nav .nav-about i { width: 29px; background-position: 0 0; }
+
+.nav-mobile { display: none; }
+.single .article-body h2 {
+  font-family: 'Gotham', sans-serif;
+  letter-spacing: -2px;
+  font-size:38px;
+}
+
+.menu-trigger i span {
+-webkit-transition: all 400ms;
+     -o-transition: all 400ms;
+        transition: all 400ms;
+}
+
+.menu-trigger { position: absolute; top: 50%; right: 40px; -webkit-transform: translateY(-50%); transform: translateY(-50%); display: none; }
+
+.menu-trigger i { position: relative; display: block; vertical-align: middle; width: 29px; height: 19px; background: transparent; font-size: 0; line-height: 0; }
+.menu-trigger i span { display: block; width: 29px; height: 3px; background: #fff; position: absolute; left: 0; border-radius: 3px; }
+.menu-trigger i .line-1 { top: 0px; }
+.menu-trigger i .line-2 { top: 8px; }
+.menu-trigger i .line-3 { top: 16px; }
+.menu-trigger:hover { text-decoration: none; }
+
+.show-menu .menu-trigger i .line-1 { top: 8px; opacity: 0; }
+.show-menu .menu-trigger i .line-2 { -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg); }
+.show-menu .menu-trigger i .line-3 { top: 8px; -ms-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }

@@ -12,6 +12,7 @@
 @import 'scss/typography';
 @import 'scss/code-skin';
 @import 'scss/header';
+@import 'scss/nav';
 @import 'scss/hero-banner';
 @import 'scss/client-banner';
 @import 'scss/blog-header';
@@ -69,12 +70,6 @@ body {
   }
 }
 
-// changed spacing between navigation elements
-.nav {
-  li:nth-child(3) {
-    margin-right: 240px;
-  }
-}
 
 // remove background elements from header
 .header {

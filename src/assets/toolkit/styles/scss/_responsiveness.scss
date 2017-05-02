@@ -1,3 +1,106 @@
+@media (max-width: 1200px) {
+ 	#navigation li i { 
+ 		margin-right:5px; 
+ 	}
+
+ 	.menu-trigger { 
+ 		display: block; 
+ 		z-index: 999; 
+ 	}
+
+ 	.nav { 
+ 		display: none; 
+ 	}
+
+ 	.nav-mobile { 
+ 		display: block!important; 
+ 		position: fixed; 
+ 		top: 110px; 
+ 		bottom: 0; 
+ 		overflow: auto; 
+ 		left: 50%; 
+ 		width: 330px; 
+ 		margin-left: -165px; 
+ 		padding: 0; 
+ 		opacity: 0; 
+ 		visibility: hidden; 
+ 		transform: translateY(-40px); 
+ 		-webkit-transform: translateY(-40px);
+    -webkit-transition: all 400ms;
+         -o-transition: all 400ms;
+            transition: all 400ms;
+  }
+
+ 	.nav-mobile ul { 
+ 		margin: 0; 
+ 		padding: 0; 
+ 		background: rgba(247,105,46,0.85); 
+ 	}
+
+ 	.nav-mobile li { 
+ 		display: block; 
+ 		padding: 0; 
+ 	}
+
+ 	.nav-mobile li:nth-child(3) { 
+ 		margin-right: 0; 
+ 	}
+
+ 	.nav-mobile li a { 
+ 		display: block; 
+ 		padding: 15px 0; 
+ 		font-size: 18px; 
+ 		line-height: 22px; 
+ 		font-weight: 700; 
+ 		color: #fff; 
+ 		text-transform: uppercase; 
+ 		text-align: center; 
+ 	}
+
+ 	.nav-mobile li a i,
+ 	.nav-mobile .nav-wwd i, 
+ 	.nav .nav-about i, 
+ 	.nav .nav-portfolio i { 
+ 		display: none; 
+ 	}
+
+ 	.nav-mobile li a:hover { 
+ 		background: #373737; 
+ 		color: #fff; 
+ 		text-decoration: none; 
+ 	}
+
+ 	.nav-mobile li.nav-mobile-planner a { 
+ 		background: #373737; 
+ 		color: #fff; 
+ 		text-decoration: none; 
+ 	}
+
+ 	.show-menu .nav-mobile { 
+ 		opacity: 1; 
+ 		visibility: visible; 
+ 		transform: translateY(0); 
+ 		-webkit-transform: translateY(0); 
+ 	}
+
+ 	.logo { 
+ 		display: block; 
+ 		position: static; 
+ 		transform: translate(0); 
+ 		-webkit-transform: translate(0); 
+ 		text-align: left; 
+ 	}
+
+ 	.logo a { 
+ 		margin: 0; 
+ 	}
+
+ 	.nav-mobile span { 
+ 		padding: 0; 
+ 		height: auto; 
+ 	}
+}	
+
 @media screen and (max-width: 992px) {
 	.blog {
 		.pagination {
@@ -86,6 +189,48 @@
 			}
 		}
 	}
+
+	.menu-trigger { 
+		right: 20px; 
+	}
+
+  .logo { 
+  	padding-left: 20px; 
+  }
+
+  .logo a { 
+  	width: 76px; 
+  	height: 22px; 
+  }
+
+  #navigation { 
+  	display:none; 
+  	width:460px; 
+  	position:absolute; 
+  	top:100%; 
+  	height:auto; 
+  }
+
+  #navigation ul { 
+  	display:block; 
+  }
+
+  #navigation li { 
+  	display:block; 
+  }
+
+  #navigation li a { 
+  	text-align:left; 
+  	border-width:0 0 0 20px; 
+  	line-height:40px; 
+  	padding-left:8px; 
+  	height:40px; 
+  	font-size:13px; 
+  }
+
+  #navigation .mobile { 
+  	display:block; 
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -120,3 +265,4 @@
 		}
 	}
 }
+
